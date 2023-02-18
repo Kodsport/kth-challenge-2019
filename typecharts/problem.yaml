@@ -1,0 +1,11 @@
+name: Type Charts
+source: KTH Challenge 2019
+# source_url:
+author: Simon Lindholm
+# rights_owner:
+license: cc by-sa
+
+validation: custom
+
+limits:
+   time_multiplier: 1.75 # Java solutions slow (and Scannerbased)

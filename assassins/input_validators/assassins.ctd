@@ -1,0 +1,7 @@
+INT(1, 15, n) SPACE INT(0, 1000, m) NEWLINE
+REP(m)
+   INT(1, n, i) SPACE
+   INT(1, n, j) SPACE
+   FLOATP(0, 1, 0, 6, p) NEWLINE
+   ASSERT(i != j)
+END

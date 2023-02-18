@@ -1,0 +1,28 @@
+\renewcommand{\insertshortauthor}{Problem Author: Per Austrin}
+\begin{frame}[fragile]{H --- Halfplane Symmetry}
+
+  \begin{block}{Problem}
+    Given a parametric polynomial curve in the plane, determine whether it is symmetric around some line.
+  \end{block}
+
+  \begin{block}{Solution}
+    \begin{enumerate}
+    \item Observe that curve is symmetric around $x$ axis with $t_0=0$ iff $x(t) = x(-t)$ and $y(t) = -y(-t)$ for all $t$
+
+      $\Leftrightarrow$  $x$ has only even degree terms and $y$ only odd degree terms.
+
+    \item Reduce general case to the above:
+
+      \begin{enumerate}
+      \item Rotate curve so that $x$ gets even degree and $y$ gets odd degree
+
+      \item Find $t_0$ such that second highest term in $x(t+t_0)$ vanishes.
+
+      \item Check that shifted polys $\tilde{x}(t) = x(t+t_0)$ and $\tilde{y}(t) = y(t+t_0)$ only have even/odd degree terms (ignore constant term)
+      \end{enumerate}
+    \end{enumerate}
+  \end{block}
+
+  \solvestats{X}{Y}{HH:MM}
+
+\end{frame}

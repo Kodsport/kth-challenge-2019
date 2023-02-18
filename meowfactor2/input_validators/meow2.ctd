@@ -1,0 +1,2 @@
+REGEX("[a-z]+", s) NEWLINE
+ASSERT(1 <= STRLEN(s) && STRLEN(s) <= 10^6)

@@ -1,0 +1,12 @@
+INT(1,10,n) NEWLINE
+REPI(i, n)
+  INT(1,10,k) NEWLINE
+  REGEX("[a-z]([a-z ]*[a-z])?", name[i]) NEWLINE
+  ASSERT(1 <= STRLEN(name[i]) && STRLEN(name[i]) <= 100)
+  REP(k)
+    REGEX("[a-z]([a-z ]*[a-z])?", s) NEWLINE
+    ASSERT(1 <= STRLEN(s) && STRLEN(s) <= 100)
+  END
+END
+ASSERT(UNIQUE(name))
+

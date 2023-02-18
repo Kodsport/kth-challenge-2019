@@ -1,0 +1,13 @@
+INT(1,100,n) SPACE INT(1,100,m) NEWLINE
+SET(hasland=0)
+REP(n)
+  REP(m)
+    REGEX("[.#]", x)
+    IF (x == ".")
+       SET(hasland=1)
+    END
+  END
+  NEWLINE
+END
+ASSERT(hasland==1)
+

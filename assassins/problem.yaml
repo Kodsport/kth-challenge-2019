@@ -1,0 +1,8 @@
+source: KTH Challenge 2019
+license: cc by-sa
+author: Johan Sannemo and Per Austrin
+
+validator_flags: float_absolute_tolerance 1.001e-6
+
+limits:
+   time_multiplier: 1.2 # the Theta(2^n*m) memory solution in Python is kind of slow

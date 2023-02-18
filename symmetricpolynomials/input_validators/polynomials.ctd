@@ -1,0 +1,17 @@
+INT(0, 10, n) NEWLINE
+REPI(i, n+1, SPACE)
+   INT(-1000, 1000, c)
+   IF (i == 0 && n > 0)
+      ASSERT(c != 0)
+   END
+END
+NEWLINE
+
+INT(0, 10, n) NEWLINE
+REPI(i, n+1, SPACE)
+   INT(-1000, 1000, c)
+   IF (i == 0 && n > 0)
+      ASSERT(c != 0)
+   END
+END
+NEWLINE

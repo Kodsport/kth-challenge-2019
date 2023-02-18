@@ -1,0 +1,35 @@
+\problemname{Meow Factor 2}
+
+\illustration{0.45}{cat}{\href{https://www.flickr.com/photos/stefantell/354864230/in/photostream/}{Picture} by Stefan Tell on Flickr, cc by}%
+\noindent
+Strings of yarn have been popular in Catland for ages.  Which cat has
+not spent many a lazy afternoon bouncing around a ball of yarn?
+Lately however, strings of yarn have gotten competition: strings of
+characters.  It turns out that these are almost as much fun as yarn,
+and generally much safer as well (so far, no cat has had to call 911
+on account of any character string-related entanglement accidents).
+
+Naturally, some strings are more stylish than others, and for cool
+cats it is important to engage in their string-playing pastime with
+style.  The \emph{meow factor} of a string $S$ is the minimum number
+of operations needed to transform $S$ into a string $S'$ which
+contains the word ``meow'' as a substring, where an operation is one
+of the following four:
+\begin{enumerate}
+\item Insert an arbitrary character anywhere into the string.
+\item Delete an arbitrary character anywhere from the string.
+\item Replace any character in the string by an arbitrary character.
+\item Swap any two adjacent characters in the string.
+\end{enumerate}
+Write a program to compute the meow factor of a string of characters.
+
+\section*{Input}
+
+The input consists of a single line containing a string $S$,
+consisting only of lower-case letters `\texttt{a}'-`\texttt{z}'.  The
+length of $S$ is at least $1$ and at most $10^6$.
+
+\section*{Output}
+
+Output the meow factor of $S$.
+
